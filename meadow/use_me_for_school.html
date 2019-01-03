@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<title> Meadow Gathercole (Lightning star Century) information </title>
+  <link rel= "stylesheet" href= "CSS/add_files/my_website.css">
+  <link href= "https://fonts.googleapis.com/css?family=Charmonman" rel= "stylesheet">
+</head>
+<body>
+  <div class= "Nav">
+    <a class= "active" href= "index.html"> Home </a>
+    <a class= "active" href= "Aboutme.html"> About Me </a>
+    <a class= "active" href= "MyLittlePony.html"> My Little Pony </a>
+    <a class= "active" href= "MyArt.html"> My Art </a>
+    <a class= "active" href= "animations.html"> Animations I like </a>
+    <a class= "active" href= "use_me_for_school.html"> Calculator</a>
+  </div>
+  <strong>
+<body>
+  <h1>Simple Web Calculator</h1>
+  <form>
+    First number: <input type="number">
+    <br>
+    Second number: <input type="number">
+  </form>
+  <button onclick="add()">Add</button>
+  <button onclick="sub()">Subtract</button>
+  <button onclick="mul()">Multiply</button>
+  <button onclick="div()">Divide</button>
+  <p id="sol"></p>
+  <script type="text/javascript">
+    var sol = document.getElementById('sol');
+    function add(){
+      var num = document.getElementsByTagName("INPUT");
+      var x = num[0].value;
+      var y = num[1].value;
+      var z = parseInt(x) + parseInt(y);
+      sol.innerHTML=z;
+    }
+    function sub(){
+      var num = document.getElementsByTagName("INPUT");
+      var x = num[0].value;
+      var y = num[1].value;
+      var z = x - y;
+      sol.innerHTML=z;
+    }
+    function mul(){
+      var num = document.getElementsByTagName("INPUT");
+      var x = num[0].value;
+      var y = num[1].value;
+      var z = x * y;
+      sol.innerHTML=z;
+    }
+    function div(){
+    var num = document.getElementsByTagName("INPUT");
+    var x = num[0].value;
+    var y = num[1].value;
+    var z = x / y;
+    sol.innerHTML=z;
+  }
+  </script>

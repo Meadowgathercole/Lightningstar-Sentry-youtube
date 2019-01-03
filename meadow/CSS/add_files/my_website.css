@@ -1,0 +1,126 @@
+html {
+  font-family: 'Charmonman', cursive;
+  font-size: 25px;
+  color: #ff0000
+}
+
+ body {
+   background-image: url("https://pre00.deviantart.net/b62b/th/pre/i/2018/274/f/1/my_collage_by_lightningstarcentury-dco9vmx.png");
+background-repeat: no-repeat;
+   background-color: ##ff0000;
+background-size:2200px 6100px;
+
+}
+.button1 {
+    background-color:#ff8000;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button2 {
+      background-color: #b3b300;
+      border: none;
+      color: white;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    .button3 {
+        background-color: #80ff00;
+        border: none;
+        color: black;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      .button4 {
+          background-color:#00ff00;
+          border: none;
+          color: white;
+          padding: 10px 25px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 20px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+
+        .button5 {
+            background-color:#00ff80;
+            border: none;
+            color: white;
+            padding: 10px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            cursor: pointer;
+          }
+          .button6 {
+              background-color:#00ffff;
+              border: none;
+              color: white;
+              padding: 10px 25px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 20px;
+              margin: 4px 2px;
+              cursor: pointer;
+            }
+            .button7 {
+                background-color:#0080ff;
+                border: none;
+                color: white;
+                padding: 10px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                margin: 4px 2px;
+                cursor: pointer;
+              }
+              .button8 {
+                  background-color:#0000ff;
+                  border: none;
+                  color: white;
+                  padding: 10px 25px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  font-size: 20px;
+                  margin: 4px 2px;
+                  cursor: pointer;
+                }
+        .Nav {
+overflow: hidden;
+background-color: #26004d
+        }
+        .Nav a {
+          float: left;
+          color: #00ffff;
+          text-align:center;
+          padding: 15px 20px;
+          text-decoration: none;
+          font-size: 20px;
+        }
+        .Nav a:hover {
+          background-color:#00ffff;
+          color: #0000e6;
+        }
